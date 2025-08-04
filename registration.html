@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Patient Registration Form</title>
+</head>
+<body>
+
+  <h2>Patient Registration Form</h2>
+
+  <form>
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age" required><br><br>
+
+    <label for="gender">Gender:</label><br>
+    <select id="gender" name="gender" required>
+      <option value="">--Select--</option>
+      <option>Male</option>
+      <option>Female</option>
+      <option>Other</option>
+    </select><br><br>
+
+    <label for="contact">Contact Number:</label><br>
+    <input type="tel" id="contact" name="contact" required><br><br>
+
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="3"></textarea><br><br>
+
+    <label for="history">Medical History:</label><br>
+    <textarea id="history" name="history" rows="4" placeholder="Mention any known issues or medications"></textarea><br><br>
+
+    <input type="submit" value="Register">
+  </form>
+
+</body>
+</html>
